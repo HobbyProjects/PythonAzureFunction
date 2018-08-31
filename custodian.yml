@@ -1,0 +1,21 @@
+policies:
+    - name: my-first-policy
+      description: |
+        Adds a tag to all virtual machines
+      resource: azure.vm
+      actions:
+       - type: tag
+         tag: Hello0
+         value: World0
+       - type: tag
+         tag: Hello2
+         value: World2
+       - type: tag
+         tag: Hello3
+         value: World3
+       - type: tag
+         tag: Hello4
+         value: World4
+       - type: tag
+         tag: Hello5
+         value: World5
